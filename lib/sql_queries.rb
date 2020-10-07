@@ -1,4 +1,4 @@
-ef selects_all_female_bears_return_name_and_age
+def selects_all_female_bears_return_name_and_age
   "SELECT bears.name, bears.age FROM bears WHERE gender='F';"
 end
 
@@ -28,3 +28,4 @@ end
 
 def selects_bear_that_killed_Tim
   "SELECT * FROM bears WHERE bears.name IS NULL;"
+end
